@@ -1,8 +1,7 @@
-"use client"
-import React from 'react';
-import { Typography, Container } from '@mui/material';
-import styled from '@emotion/styled';
-
+"use client";
+import React from "react";
+import { Typography, Container } from "@mui/material";
+import styled from "@emotion/styled";
 
 const StyledFooter = styled.footer`
   background-color: #333; /* Colore grigio scuro */
@@ -30,17 +29,26 @@ const Footer = () => {
   return (
     <StyledFooter>
       <Container>
-        <Typography variant="body2">
-          Inserisci qui le informazioni del tuo footer.
-        </Typography>
+        <Typography variant="body2">Moenia Ristorante - Otranto</Typography>
         <SocialLinksList>
           <SocialLink>
-            <a target='_blank' href="https://www.instagram.com/moeniaotranto/">Instagram</a>
+            <a target="_blank" href="https://www.instagram.com/moeniaotranto/">
+              Instagram
+            </a>
           </SocialLink>
           <SocialLink>
-            <a target='_blank' href="https://www.facebook.com/moeniaotranto/">Facebook</a>
+            <a target="_blank" href="https://www.facebook.com/moeniaotranto/">
+              Facebook
+            </a>
           </SocialLink>
-          {/* Aggiungi altri link social qui */}
+          <SocialLink>
+            <a
+              target="_blank"
+              href=" https://www.tripadvisor.it/Restaurant_Review-g652004-d17384726-Reviews-Moenia-Otranto_Province_of_Lecce_Puglia.html/"
+            >
+              Trip-Advisor
+            </a>
+          </SocialLink>
         </SocialLinksList>
       </Container>
     </StyledFooter>

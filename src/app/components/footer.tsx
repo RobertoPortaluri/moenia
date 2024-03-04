@@ -11,6 +11,8 @@ const StyledFooter = styled.footer`
   position: absolute;
   bottom: 0;
   width: 100%;
+  z-index: 9999;
+  display: block;
 `;
 
 const SocialLinksList = styled.ul`
